@@ -17,10 +17,17 @@
 }
 
 .icon__styling{
+    display: flex;
     border-radius: 10px;
     background-color: #DEEBFF;
     color: #0065FC;
     margin-right: 15px;
     flex: 1;
+}
+
+.unique__filter{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
 }
 

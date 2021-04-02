@@ -7,23 +7,22 @@
         margin: 5px 20px 30px 20px;
     }
 
-    .reservia__img{
+    .reservia__img {
         width: 125px;
         height: auto;
     }
 
-    .first__nav__element--placement{
+    .first__nav__element--placement {
         font-weight: bold;
         color: #0065FC;
     }
 
     .nav__links--placement {
         display: flex;
-
         padding-bottom: 10px;
     }
 
-    .nav__links{
+    .nav__links {
         text-align: center;
         border-bottom: solid 3px #F2F2F2;
         padding-bottom: 10px;
@@ -34,11 +33,7 @@
         transition: 0.2s;
         color: #0065FC;
         border-bottom: solid 3px #0065FC;
-
     }
-
-
-
 }
 
 
