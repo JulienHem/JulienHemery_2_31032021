@@ -29,7 +29,13 @@
     border: none;
     height: 39px;
     width: 250px;
-    font-size: 25px;
+    font-size: 18px;
+}
+
+::placeholder {
+    color: black;
+    font-weight: bold;
+    opacity: 1; /* Firefox */
 }
 
 textarea:focus, input:focus{
