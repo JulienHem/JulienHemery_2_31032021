@@ -1,15 +1,60 @@
-@media (max-width: 736px) {
+@media (min-width: 750px) {
 
-    .logo__sub--placement {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin: 5px 20px 30px 20px;
-    }
 
     .reservia__img {
         width: 125px;
         height: auto;
+        margin: 5px 20px 30px 20px;
+    }
+
+    .nav__links--placement{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+    .nav__links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: solid 3px #ffffff;
+        padding-right: 45px;
+        padding-left: 45px;
+        height: 150px;
+
+    }
+
+    .nav__links:hover {
+        transition: 0.2s;
+        color: #0065FC;
+        border-top: solid 3px #0065FC;
+
+    }
+
+    .sub__button{
+        display: flex;
+        align-items: center;
+        padding-left: 25px;
+        height: 150px;
+        font-weight: bold;
+        color: #0065FC;
+    }
+}
+
+@media (max-width: 736px) {
+
+    .reservia__img {
+        width: 125px;
+        height: auto;
+        margin: 5px 20px 30px 20px;
+    }
+
+    .sub__button{
+        position: absolute;
+        bottom: 689px;
+        right: 32px;
+        font-weight: bold;
+        color: #0065FC
     }
 
     .first__nav__element--placement {

@@ -1,25 +1,48 @@
-.search__container {
-    margin-right: 25px;
-    margin-left: 25px;
+@media (min-width: 750px) {
+
+    .container {
+        margin: 0 70px 0 70px;
+    }
+    .header__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
 }
-.filter__container {
-    margin-right: 25px;
-    margin-left: 25px;
-}
-.known__container {
-    margin-right: 25px;
-    margin-left: 25px;
-    padding-bottom: 35px;
-}
-.lodging__container{
-    margin-right: 25px;
-    margin-left: 25px;
-}
-.activities__container{
-    margin-right: 25px;
-    margin-left: 25px;
-}
-.footer__container{
-    margin: 25px 25px 0;
-    padding-top: 35px;
+
+
+@media (max-width: 736px) {
+
+    .search__container {
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+
+    .filter__container {
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+
+    .known__container {
+        margin-right: 25px;
+        margin-left: 25px;
+        padding-bottom: 35px;
+    }
+
+    .lodging__container {
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+
+    .activities__container {
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+
+    .footer__container {
+        margin: 25px 25px 0;
+        padding-top: 35px;
+    }
 }
