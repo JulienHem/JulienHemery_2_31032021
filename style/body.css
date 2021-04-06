@@ -1,23 +1,7 @@
-.search__container {
-    margin-right: 25px;
-    margin-left: 25px;
-}
-
 .title__wrapper {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-
-.main__title {
-    font-weight: bold;
-    font-size: 25px;
-}
-
-.sub__title {
-    margin-top: 10px;
-    font-size: 18px;
-}
-
 .search__input__wrapper {
     display: flex;
     justify-content: space-between;

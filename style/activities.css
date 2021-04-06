@@ -1,0 +1,21 @@
+.activities__section{
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+.activities__card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 35px;
+    box-shadow: 1px 4px 19px -9px rgba(186, 184, 184, 0.86);
+    margin-bottom: 20px;
+
+}
+.activities__img{
+    border-radius: 35px 35px 0 0;
+    height: 150px;
+    object-fit: cover;
+}
+.activities__card__title{
+    font-size: 18px;
+    margin-left: 20px;
+}
