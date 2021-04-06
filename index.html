@@ -9,7 +9,10 @@
     <link rel="stylesheet" href="style/header.css">
     <link rel="stylesheet" href="style/body.css">
     <link rel="stylesheet" href="style/filters.css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style/housing.css">
+    <link rel="stylesheet" href="style/known.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <title>Reservia</title>
 </head>
 
@@ -29,7 +32,8 @@
 </header>
 
 <body>
-<div class="body__container">
+
+<div class="search__container">
     <div class="title__wrapper">
         <h1 class="main__title">Trouvez votre hébergement pour des vacances de rêve</h1>
         <div class="sub__title">En plein centre ville ou en pleine nature</div>
@@ -41,15 +45,101 @@
         <i class="fas fa-search" id="search__icon"></i>
     </div>
 
-    <div class="filter__title">Filtres</div>
-    <div class="filter__container">
-            <div class="filter__wrapper"><div class="icon__wrapper"><i class="fas fa-money-bill-wave icon__styling"></i></div><div class="filter__text">Economique</div></div>
-            <div class="filter__wrapper"><div class="icon__wrapper"><i class="fas fa-child icon__styling"></i></div><div class="filter__text">Familial</div></div>
-            <div class="filter__wrapper"><div class="icon__wrapper"><i class="fas fa-heart icon__styling"></i></div><div class="filter__text">Romantique</div></div>
-            <div class="filter__wrapper"><div class="icon__wrapper"><i class="fas fa-dog icon__styling"></i></div><div class="filter__text">Animaux autorisés</div></div>
+</div>
 
+<div class="filter__container">
+    <div class="filter__title">Filtres</div>
+    <div class="filter__row">
+        <div class="filter__wrapper">
+            <div class="icon__wrapper"><i class="fas fa-money-bill-wave icon__styling"></i></div>
+            <div class="filter__text">Economique</div>
+        </div>
+        <div class="filter__wrapper">
+            <div class="icon__wrapper"><i class="fas fa-child icon__styling"></i></div>
+            <div class="filter__text">Familial</div>
+        </div>
+        <div class="filter__wrapper">
+            <div class="icon__wrapper"><i class="fas fa-heart icon__styling"></i></div>
+            <div class="filter__text">Romantique</div>
+        </div>
+        <div class="filter__wrapper">
+            <div class="icon__wrapper"><i class="fas fa-dog icon__styling"></i></div>
+            <div class="filter__text">Animaux autorisés</div>
+        </div>
+    </div>
+
+    <div class="info__text">
+        <div class="location__icon__wrapper"><i class="fas fa-info location__icon__styling"></i></div>
+        <div class="description">Plus de 500 logements sont disponibles dans cette ville</div>
     </div>
 </div>
+
+
+<div class="known__section">
+    <div class="known__container">
+        <div class="known__title__wrapper">
+            <h1 class="known__title">Les plus populaires</h1>
+            <i class="fas fa-chart-line chart__icon"></i>
+        </div>
+
+        <div class="location__card">
+            <div class="card__content">
+                <img src="assets/hebergements/3_medium/green_bedroom.jpg" alt="" class="first__card__img">
+                <div class="card__infos">
+                    <h2 class="card__title">Hôtel Le Soleil du matin</h2>
+                    <h3 class="card__description">Nuit à partir de 128€</h3>
+                    <div class="stars__position">
+                        <i class="fas fa-star filled_star"></i>
+                        <i class="fas fa-star filled_star"></i>
+                        <i class="fas fa-star filled_star"></i>
+                        <i class="fas fa-star filled_star"></i>
+                        <i class="fas fa-star filled_star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="location__card">
+            <div class="card__content">
+                <img src="assets/hebergements/3_medium/heart__water.jpg" alt="" class="first__card__img">
+                <div class="card__infos">
+                    <h2 class="card__title">Au coeur de l'eau Chambre d'hôtes</h2>
+                    <h3 class="card__description">Nuit à partir de 71€</h3>
+                    <div class="stars__position">
+                        <i class="fas fa-star filled_star"></i>
+                        <i class="fas fa-star filled_star"></i>
+                        <i class="fas fa-star filled_star"></i>
+                        <i class="fas fa-star filled_star"></i>
+                        <i class="fas fa-star unfilled_star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="location__card">
+            <div class="card__content">
+                <img src="assets/hebergements/3_medium/bleu&white__hotel.jpg" alt="" class="third__card__img">
+                <div class="card__infos">
+                    <h2 class="card__title">Hôtel tout bleu et blanc</h2>
+                    <h3 class="card__description">Nuit à partir de 68€</h3>
+                    <div class="stars__position">
+                        <i class="fas fa-star filled_star"></i>
+                        <i class="fas fa-star filled_star"></i>
+                        <i class="fas fa-star filled_star"></i>
+                        <i class="fas fa-star filled_star"></i>
+                        <i class="fas fa-star unfilled_star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="marseille__locations__section">
+    <h1>Hébergement à Marseille
+    </h1>
+</div>
+
 
 </body>
 </html>
