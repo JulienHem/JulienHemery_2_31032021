@@ -32,6 +32,14 @@
         margin-right: 25px;
         margin-left: 40px;
     }
+
+    .footer__container{
+        margin-left: 70px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
 }
 
 

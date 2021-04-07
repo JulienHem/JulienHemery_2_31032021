@@ -1,8 +1,9 @@
-.activities__section{
+.activities__section {
     margin-top: 55px;
     margin-bottom: 55px;
 }
-.activities__card{
+
+.activities__card {
     display: flex;
     flex-direction: column;
     border-radius: 35px;
@@ -10,12 +11,55 @@
     margin-bottom: 20px;
 
 }
-.activities__img{
+
+.activities__card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 35px;
+    box-shadow: 1px 4px 19px -9px rgba(186, 184, 184, 0.86);
+    margin-bottom: 20px;
+
+}
+
+.activities__img {
     border-radius: 35px 35px 0 0;
     height: 150px;
     object-fit: cover;
 }
-.activities__card__title{
+
+.activities__card__title {
     font-size: 18px;
     margin-left: 20px;
 }
+
+@media (min-width: 750px) {
+    .activities__card__wrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 35px;
+    }
+    .activities__large__img{
+        height: 480px;
+        width: 350px;
+    }
+    .activities__cards__column{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    #activities__img__two{
+        width: 350px;
+        height: 250px;
+    }
+    #activities__img__three{
+        height: 125px;
+    }
+    .last__column_img{
+        height: 200px;
+        width: 350px;
+    }
+}
+
