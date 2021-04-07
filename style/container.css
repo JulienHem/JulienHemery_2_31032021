@@ -9,7 +9,29 @@
         justify-content: space-between;
         align-items: center;
     }
+    .filter__container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 35px;
+        margin-bottom: 40px;
+    }
+    .middle__section{
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
 
+    .known__container {
+        margin-top: 50px;
+        padding-bottom: 35px;
+    }
+    .lodging__container {
+        margin-top: 50px;
+        margin-right: 25px;
+        margin-left: 40px;
+    }
 }
 
 
@@ -44,5 +66,9 @@
     .footer__container {
         margin: 25px 25px 0;
         padding-top: 35px;
+    }
+    .info__text{
+        margin-right: 25px;
+        margin-left: 25px;
     }
 }

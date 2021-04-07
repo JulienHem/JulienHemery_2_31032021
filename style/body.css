@@ -1,52 +1,69 @@
+@media (min-width: 750px) {
+    .title__wrapper {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
 
-.title__wrapper {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    .search__input__wrapper {
+        display: flex;
+        justify-content: space-between;
+        width: 450px;
+        height: 50px;
+        border: 1px #F2F2F2 solid;
+        border-radius: 10px 10px 10px 10px;
+    }
+
+    #location__input {
+        display: flex;
+        align-items: center;
+        border: none;
+        width: 250px;
+        font-size: 18px;
+        padding-left: 20px;
+
+    }
+
+    ::placeholder {
+        color: black;
+        font-weight: bold;
+        opacity: 1; /* Firefox */
+    }
+
+    textarea:focus, input:focus {
+        outline: none;
+    }
+
+    #location__icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px 0 0 10px;
+        background-color: #F2F2F2;
+        font-size: 20px;
+        width: 60px;
+    }
+
+    #search__icon {
+        display: none;
+    }
+
+
+    .fa-search {
+        color: white;
+        content: 'Rechercher'
+    }
+
+    .search__text{
+        content: 'Rechercher';
+        color: #ffffff;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        border-radius: 0 10px 10px 0;
+        background-color: #0065FC;
+        padding: 0 15px 0 15px;
+    }
 }
-
-.search__input__wrapper {
-    display: flex;
-    justify-content: space-between;
-    border: 1px #F2F2F2 solid;
-    border-radius: 10px 10px 10px 10px;
-}
-
-#location__input {
-    border: none;
-    height: 39px;
-    width: 250px;
-    font-size: 18px;
-}
-
-::placeholder {
-    color: black;
-    font-weight: bold;
-    opacity: 1; /* Firefox */
-}
-
-textarea:focus, input:focus {
-    outline: none;
-}
-
-#location__icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px 0 0 10px;
-    background-color: #F2F2F2;
-    margin-right: 15px;
-}
-
-#search__icon {
-    justify-content: center;
-    border-radius: 10px 10px 10px 10px;
-    background-color: #0065FC;
-}
-
-.fa-search {
-    color: white;
-}
-
 
 @media (max-width: 736px) {
     .title__wrapper {
@@ -99,5 +116,9 @@ textarea:focus, input:focus {
 
     .fa-search {
         color: white;
+    }
+
+    .search__text{
+        display: none;
     }
 }
