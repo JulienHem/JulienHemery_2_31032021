@@ -13,14 +13,14 @@
         border-radius: 10px 10px 10px 10px;
     }
 
-    #location__input {
+    #search__input__location__input {
         display: flex;
         align-items: center;
         border: none;
         width: 250px;
         font-size: 18px;
         padding-left: 20px;
-
+        cursor: pointer;
     }
 
     ::placeholder {
@@ -41,20 +41,21 @@
         background-color: #F2F2F2;
         font-size: 20px;
         width: 60px;
+        cursor: pointer;
+
     }
 
-    #search__icon {
+    #search__input__search__icon {
         display: none;
     }
 
 
     .fa-search {
         color: white;
-        content: 'Rechercher'
+        cursor: pointer;
     }
 
-    .search__text{
-        content: 'Rechercher';
+    .search__input__search__text{
         color: #ffffff;
         font-weight: bold;
         display: flex;
@@ -62,6 +63,7 @@
         border-radius: 0 10px 10px 0;
         background-color: #0065FC;
         padding: 0 15px 0 15px;
+        cursor: pointer;
     }
 }
 
@@ -78,7 +80,7 @@
         border-radius: 10px 10px 10px 10px;
     }
 
-    #location__input {
+    #search__input__location__input {
         border: none;
         height: 39px;
         width: 250px;
@@ -103,22 +105,24 @@
         border-radius: 10px 0 0 10px;
         background-color: #F2F2F2;
         margin-right: 15px;
+        cursor: pointer;
     }
 
-    #search__icon {
+    #search__input__search__icon {
         display: flex;
         align-items: center;
         justify-content: center;
         border-radius: 10px 10px 10px 10px;
         background-color: #0065FC;
         flex: 1;
+        cursor: pointer;
     }
 
     .fa-search {
         color: white;
     }
 
-    .search__text{
+    .search__input__search__text{
         display: none;
     }
 }

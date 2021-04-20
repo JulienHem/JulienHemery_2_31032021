@@ -6,13 +6,13 @@
         margin: 5px 20px 0 0;
     }
 
-    .nav__links--placement{
+    .nav__links{
         display: flex;
         justify-content: space-around;
         align-items: center;
 
     }
-    .nav__links {
+    .nav__links--active{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -23,14 +23,14 @@
 
     }
 
-    .nav__links:hover {
+    .nav__links--active:hover {
         transition: 0.2s;
         color: #0065FC;
         border-top: solid 3px #0065FC;
 
     }
 
-    .sub__button{
+    .nav__links__sub__button{
         display: flex;
         align-items: center;
         padding-left: 25px;
@@ -48,7 +48,7 @@
         margin: 5px 20px 30px 20px;
     }
 
-    .sub__button{
+    .nav__links__sub__button{
         position: absolute;
         bottom: 689px;
         right: 32px;
@@ -56,24 +56,20 @@
         color: #0065FC
     }
 
-    .first__nav__element--placement {
-        font-weight: bold;
-        color: #0065FC;
-    }
 
-    .nav__links--placement {
+    .nav__links{
         display: flex;
         padding-bottom: 10px;
     }
 
-    .nav__links {
+    .nav__links--active{
         text-align: center;
         border-bottom: solid 3px #F2F2F2;
         padding-bottom: 10px;
         flex: 1
     }
 
-    .nav__links:hover {
+    .nav__links--active:hover {
         transition: 0.2s;
         color: #0065FC;
         border-bottom: solid 3px #0065FC;

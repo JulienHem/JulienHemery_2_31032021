@@ -14,7 +14,6 @@
     <link rel="stylesheet" href="style/lodging.css">
     <link rel="stylesheet" href="style/activities.css">
     <link rel="stylesheet" href="style/footer.css">
-
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
           integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <title>Reservia</title>
@@ -25,10 +24,10 @@
     <header>
         <div class="header__container">
             <img class="reservia__img" src="assets/logo/Reservia@3x.png" alt="logo">
-            <nav class="nav__links--placement">
-                <a class="nav__links" id="first__link" href="/">Hébergements</a>
-                <a class="nav__links" id="second_link" href="/">Activités</a>
-                <a class="sub__button" href="/">S'inscrire</a>
+            <nav class="nav__links">
+                <a class="nav__links--active" id="first__link" href="/">Hébergements</a>
+                <a class="nav__links--active" id="second_link" href="/">Activités</a>
+                <a class="nav__links__sub__button" href="/">S'inscrire</a>
             </nav>
         </div>
     </header>
@@ -42,11 +41,10 @@
 
         <div class="search__input__wrapper">
             <i class="fa fa-map-marker-alt" id="location__icon" aria-hidden="true"></i>
-            <input id="location__input" type="text" placeholder="Marseille, France">
-            <i class="fas fa-search" id="search__icon"></i>
-            <div class="search__text">Rechercher</div>
+            <input id="search__input__location__input" type="text" placeholder="Marseille, France">
+            <i class="fas fa-search" id="search__input__search__icon"></i>
+            <div class="search__input__search__text">Rechercher</div>
         </div>
-
     </div>
 
     <div class="filter__container">
@@ -78,7 +76,6 @@
 
 
     <div class="middle__section">
-
 
         <div class="known__section">
             <div class="known__container">
