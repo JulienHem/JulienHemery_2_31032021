@@ -32,7 +32,7 @@
     margin-left: 20px;
 }
 
-@media (min-width: 750px) {
+@media (min-width: 769px) {
     .activities__card__wrapper{
         display: flex;
         flex-direction: row;

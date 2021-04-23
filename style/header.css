@@ -1,4 +1,4 @@
-@media (min-width: 750px) {
+@media (min-width: 769px) {
 
     .reservia__img {
         width: 125px;
@@ -40,7 +40,7 @@
     }
 }
 
-@media (max-width: 736px) {
+@media (max-width: 768px) {
 
     .reservia__img {
         width: 125px;

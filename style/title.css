@@ -1,4 +1,4 @@
-@media(min-width: 750px) {
+@media(min-width: 769px) {
     .main__title {
         font-weight: bold;
         font-size: 25px;
@@ -27,7 +27,7 @@
 }
 
 
-@media (max-width: 736px) {
+@media (max-width: 768px) {
 
     .main__title {
         font-weight: bold;

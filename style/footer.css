@@ -1,4 +1,7 @@
 footer {
+    width: 100%;
+    position: absolute;
+    left: 0;
     background-color: #F2F2F2;
 }
 
@@ -13,22 +16,14 @@ footer {
     margin-bottom: 10px;
 }
 
-.footer__links:last-child {
-    margin: 0;
-    padding-bottom: 45px;
-}
 
-@media (min-width: 750px) {
-    .footer__wrapper{
-        margin-right: 350px;
-    }
-}
-@media (max-width: 736px) {
+
 
 .footer__wrapper{
     display: flex;
     flex-direction: column;
-}
+    margin-bottom: 25px;
+
 
 
 
