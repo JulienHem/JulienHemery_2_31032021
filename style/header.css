@@ -50,8 +50,8 @@
 
     .nav__links__sub__button{
         position: absolute;
-        bottom: 689px;
-        right: 32px;
+        top: 2em;
+        right: 2em;
         font-weight: bold;
         color: #0065FC
     }
