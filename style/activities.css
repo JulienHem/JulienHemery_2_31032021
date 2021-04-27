@@ -51,3 +51,9 @@
     }
 }
 
+@media (max-width: 768px) {
+    .activities__img {
+        height: 150px
+    }
+}
+
