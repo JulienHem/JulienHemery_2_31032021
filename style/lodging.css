@@ -49,6 +49,13 @@
     margin-top: 35px;
 }
 
+@media (min-width: 770px) and (max-width: 1366px) {
+    .lodging__card{
+        width: 350px !important;
+        margin-right: 40px;
+    }
+}
+
 @media (min-width: 769px) {
     .lodging__section {
         background-color: #F2F2F2;
@@ -63,7 +70,7 @@
     }
 
     .lodging__card{
-        width: 350px;
+        width: 250px;
         margin-right: 40px;
     }
     .lodging__card__description{
@@ -78,6 +85,7 @@
 
 }
 @media (max-width: 768px) {
+
     .lodging__section {
         margin-top: 55px;
     }
