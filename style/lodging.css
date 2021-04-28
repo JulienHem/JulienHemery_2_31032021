@@ -63,7 +63,7 @@
     }
 
     .lodging__card{
-        width: 250px;
+        width: 350px;
         margin-right: 40px;
     }
     .lodging__card__description{
@@ -81,6 +81,5 @@
     .lodging__section {
         margin-top: 55px;
     }
-
 
 }
